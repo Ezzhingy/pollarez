@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://cs50-pollarez.herokuapp.com/">
-    <img src="static/wave.png" alt="Waving Polar Bear Clipart" width="80" height="80">
+    <img src="app/static/wave.png" alt="Waving Polar Bear Clipart" width="80" height="80">
   </a>
 
   <h1 align="center">Pollarez</h1>
@@ -50,6 +50,7 @@ __*panic.html*__ -- This template contains a big red button, also known as the P
 __*styles.css*__ -- This file contains all the formatting details that make the website shine and flourish. The file contains the brunt of the front-end design.
 
 ### Inspiration
+
 Pollarez is backed with a blue colour palette: from turquoise to light green, light green to light blue. These colours are quite meditative and help students destress, whether they are gaming, studying, or simply vibing! The addition of cute polar bears enhances the friendly environment Pollarez already creates with its colour pallete, hence the reason for name sounding very similar to 'POLAR'.
 
 ### Built With
@@ -71,4 +72,4 @@ Github: https://github.com/Ezzhingy
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[product-screenshot]: static/product_screenshot.png
+[product-screenshot]: app/static/product_screenshot.png
