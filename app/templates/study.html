@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block title %} 
+    Study Zone
+{% endblock %}
+
+{% block main %}
+
+    <header class="masthead body-custom text-white text-center">
+        <div class="container d-flex align-items-center flex-column page-section">
+            <!--Heading-->
+            <h1 class="title thick page-section3 masthead-heading mb-0"><b>STUDY ZONE</b></h1>
+            <select class="dropdown" id="genres" onchange="music()">
+                <option value="BHACKCNDMW8">Nature</option>
+                <option value="lTRiuFIWV54">Lo-fi</option>
+                <option value="q76bMs-NwRk">Rain</option>
+            </select>
+        </div>
+    </header>
+
+    <section>
+        <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+        <div class="video-container">
+            <div id="player"></div>
+        </div>
+    </section>
+
+    <script>
+
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: 'auto',
+                width: 'auto',
+                videoId: 'BHACKCNDMW8',
+            events: {
+                'onReady': onPlayerReady
+            }
+            });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+        event.target.playVideo();
+        }
+        
+        // 5. API calls this function based on value selected in dropdown menu by user.
+        function music() {
+            var fake_genre = document.getElementById("genres");
+            var genre = fake_genre.value;
+            player.loadVideoById(genre, 0);
+            player.playVideo();
+        }
+
+    </script>
+
+{% endblock %} 

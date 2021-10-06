@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block title %} 
+    Games
+{% endblock %}
+
+{% block main %}
+
+    <header class="masthead body-custom text-white text-center">
+        <div class="container d-flex align-items-center flex-column page-section">
+
+            <!--Heading-->
+            <h1 class="title page-section3 masthead-heading mb-0"><b>GAMES</b></h1>
+            <img id="gaming" src="static/gaming.png" alt="Gaming Polar Bear Clipart" />            
+
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            </div>
+
+            <p class="description-paragraph">Behold our selection of games!</p>
+            <p class="description-paragraph">Game selection will expand as time goes on!</p>
+    </header>
+
+    <section class="page-section body-custom2">
+        <div class="container">
+
+            <!-- Game Grid Items-->
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <a href="https://www.friv.com/" target="_blank"><img class="img-fluid" src="static/friv.png" alt="Friv Logo"></a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <a href="https://www.miniclip.com/games/en/#" target="_blank"><img class="img-fluid" src="static/miniclip.png" alt="Miniclip Logo"></a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5" id="kizi">
+                    <a href="https://kizi.com/" target="_blank"><img class="img-fluid" src="static/kizi.png" alt="Kizi Logo"></a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 page-section">
+                    <a href="https://www.coolmathgames.com/" target="_blank"><img class="img-fluid" src="static/cmg.jpeg" alt="Cool Math Games Logo"></a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0 page-section" id="math">
+                    <a href="https://www.mathplayground.com/" target="_blank"><img class="img-fluid" src="static/math.jpeg" alt="Math Playground Logo"></a>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <a href="https://poki.com/" target="_blank"><img class="img-fluid" src="static/poki.png" alt="Poki Logo"></a>
+                </div>
+            </div>    
+    </section>
+    
+{% endblock %} 

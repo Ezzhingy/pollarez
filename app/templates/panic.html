@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block title %} 
+    Panic Place
+{% endblock %}
+
+{% block main %}
+
+    <header class="masthead body-custom text-white text-center">
+        <div class="container d-flex align-items-center flex-column page-section">
+            <!--Heading-->
+            <h1 class="title thick page-section3 masthead-heading mb-0"><b>PANIC BUTTON</b></h1>  
+        </div>
+    </header>
+
+    <audio id="alarm" src="static/alarm.mp3" preload="auto"></audio>
+
+    <script>
+
+        var alarm = document.getElementById("alarm");
+        alarm.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+
+        var isPlaying = false;
+
+        function togglePlay() {
+            if (isPlaying)
+            {
+                alarm.pause()
+            }
+            else 
+            {
+                alarm.play();
+            }    
+        };
+
+        alarm.onplaying = function() {
+            isPlaying = true;
+        };
+
+        alarm.onpause = function() {
+            isPlaying = false;
+        };
+        
+    </script>
+
+    <section class="page-section2">
+        <button class="button" onmousedown="togglePlay()"><span>PANIC</span></button>
+    </section>
+
+{% endblock %} 
