@@ -51,7 +51,7 @@ __*styles.css*__ -- This file contains all the formatting details that make the 
 
 ### Inspiration
 
-Pollarez is backed with a blue colour palette: from turquoise to light green, light green to light blue. These colours are quite meditative and help students destress, whether they are gaming, studying, or simply vibing! The addition of cute polar bears enhances the friendly environment Pollarez already creates with its colour pallete, hence the reason for name sounding very similar to 'POLAR'.
+Pollarez is backed with a blue colour palette: from turquoise to light green, light green to light blue. These colours are quite meditative and help students de-stress, whether they are gaming, studying, or simply vibing! The addition of cute polar bears enhances the friendly environment Pollarez already creates with its colour pallete, hence the reason for name sounding very similar to 'POLAR'.
 
 ### Built With
 
