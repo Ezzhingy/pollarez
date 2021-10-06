@@ -41,7 +41,7 @@ __*home_page.html*__ -- This template contains the home page of the website and 
 
 __*games.html*__ -- This template contains all the games which the user can click and play. Most of the content in this template is enhance with Bootstrap, to allow for more fluent formatting and design.
 
-__*study.html*__ -- This template contains relaxing Youtube videos to help the user get in the zone when studying. This template includes Bootstrap formatting, but most importantly, incorporates the **Youtube IFrame Player API** via Javascript to activate and load each respective Youtube video the user chooses from the dropdown menu.
+__*study.html*__ -- This template contains relaxing Youtube videos to help the user get in the zone when studying. This template includes Bootstrap formatting, but most importantly, incorporates the **Youtube IFrame Player API** via Javascript to activate and load each respective Youtube video the user chooses, from the dropdown menu.
 
 __*panic.html*__ -- This template contains a big red button, also known as the Panic Button and blares an alarm sound when the button is clicked, which can be toggled on and off. This template relies mainly on Javascript to activate the audio and create that signature panic sound.
 
