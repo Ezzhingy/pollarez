@@ -39,7 +39,7 @@ __*layout.html*__ -- This template contains the stylesheet, bootstrap installati
 
 __*home_page.html*__ -- This template contains the home page of the website and is the first page the user sees when brought to the site. This template showcases images and texts nicely formatted in a Flexible Box Layout, thanks to Bootstrap.
 
-__*games.html*__ -- This template contains all the games which the user can click and play. Most of the content in this template is enhance with Bootstrap, to allow for more fluent formatting and design.
+__*games.html*__ -- This template contains all the games which the user can click and play. Most of the content in this template is enhanced with Bootstrap, to allow for more fluent formatting and design.
 
 __*study.html*__ -- This template contains relaxing Youtube videos to help the user get in the zone when studying. This template includes Bootstrap formatting, but most importantly, incorporates the **Youtube IFrame Player API** via Javascript to activate and load each respective Youtube video the user chooses, from the dropdown menu.
 
