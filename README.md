@@ -33,7 +33,7 @@ __*helpers*__ -- This file builds an error message function, which is incorporat
 
 ### Templates
 
-__*apology.html*__ -- This template contains an error message. Ideally the user should never see an apology message, however on the off chance the server crashes or malfunctions, this template will be able to showcase the problem to the user.
+__*apology.html*__ -- This template contains an error message. Ideally the user should never see an apology message, however, on the off chance the server crashes or malfunctions, this template will be able to showcase the problem to the user.
 
 __*layout.html*__ -- This template contains the stylesheet, bootstrap installation, and font packages. It also contains the general layout that all other .html templates (with the exception of *apology.html*) will follow. The general layout of this template includes a responsive navigation bar and the incorporation of Jinja2 to connect all the other templates to this layout.
 
