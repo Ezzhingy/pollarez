@@ -20,7 +20,8 @@ input
     color: #a1c5ff;
 }
 
-* {
+* 
+{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,7 +102,8 @@ input
   margin-left: auto;
 }
 
-#mainNav {
+#mainNav 
+{
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -146,16 +148,19 @@ input
   
 @media (min-width: 992px) 
 {
-    #mainNav {
+    #mainNav 
+    {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
       transition: padding-top 0.3s, padding-bottom 0.3s;
     }
-    #mainNav .navbar-brand {
+    #mainNav .navbar-brand 
+    {
       font-size: 1.75em;
       transition: font-size 0.3s;
     }
-    #mainNav .navbar-nav {
+    #mainNav .navbar-nav 
+    {
       margin-top: 0;
     }
 }
@@ -207,7 +212,8 @@ input
 
 @media (min-width: 992px) 
 {
-    .page-section .page-section-heading {
+    .page-section .page-section-heading 
+    {
       font-size: 3rem;
       line-height: 2.5rem;
     }
@@ -303,12 +309,15 @@ input
     text-align: center !important;
 }
 
-.video-container {
+.video-container 
+{
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%; 
     height: 0;
 }
-.video-container iframe {
+
+.video-container iframe 
+{
     position: absolute;
     top: 0;
     left: 0;
@@ -327,7 +336,8 @@ input
 }
 
 /* Red Button CSS, pulled from https://codepen.io/dudleystorey/pen/zqgGn */
-.button { 
+.button 
+{ 
   border-radius: 50%; 
   width: 250px;
   height: 250px;
@@ -349,4 +359,5 @@ input
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 
